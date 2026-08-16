@@ -1,19 +1,21 @@
 @font-face {
-    font-family: 'Norse Bold';
-    src: url('font/norse-bold/Norse-Bold.woff2') format('woff2'),
-        url('font/norse-bold/Norse-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Norse Bold";
+  src:
+    url("font/norse-bold/Norse-Bold.woff2") format("woff2"),
+    url("font/norse-bold/Norse-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Inter Regular';
-    src: url('font/inter-regular/Inter-Regular.woff2') format('woff2'),
-        url('font/inter-regular/Inter-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Inter Regular";
+  src:
+    url("font/inter-regular/Inter-Regular.woff2") format("woff2"),
+    url("font/inter-regular/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -43,11 +45,11 @@ body {
 }
 
 .right-section {
-  flex: 6 1 ;
+  flex: 6 1;
 
   display: flex;
   flex-direction: column;
-  background-color: #F3F4F6;
+  background-color: #f3f4f6;
   gap: 32px;
 }
 
@@ -86,22 +88,24 @@ body {
 }
 
 .left-section .image-credits {
-    color: #ffffff;
-    font-size: 0.7em;
+  color: #ffffff;
+  font-size: 0.7em;
+}
+
+.image-credits p a {
+  color: #ffffff;
 }
 
 .left-section .logo .logo-image {
-    width: 4em;
+  width: 4em;
 }
 
 .left-section .logo .logo-text {
-    font-size: 4em;
-    font-family: "Norse Bold", 'Times New Roman', Times, serif;
+  font-size: 4em;
+  font-family: "Norse Bold", "Times New Roman", Times, serif;
 }
 
 /* right section content styling */
-
-
 
 .right-section .greater-section,
 .right-section .submit-section {
@@ -137,7 +141,7 @@ body {
   min-width: 200px;
   min-height: 24px;
   padding: 4px;
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
   border-radius: 3px;
 }
 
@@ -148,7 +152,7 @@ body {
   gap: 24px;
 
   padding: 16px 40px;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -164,7 +168,7 @@ body {
 }
 
 .submit-section button {
-  background-color: #596D48;
+  background-color: #596d48;
   width: 180px;
   height: 32px;
   color: #ffffff;
@@ -186,15 +190,15 @@ body {
 
 .have-account a {
   text-decoration: none;
-  color: #596D48;
+  color: #596d48;
 }
 
 .form-input input:user-invalid {
-  border: 1px solid #C64646;
+  border: 1px solid #c64646;
 }
 
 .form-input input:focus {
-  border: 1px solid #3964DC;
+  border: 1px solid #3964dc;
   outline: none;
   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
