@@ -19,44 +19,48 @@
       </div>
     </div>
     <div class="right-section">
-      <div class="greater-text">
+      <div class="greater-section">
         <p>
           This is not real online service! You know you need something like this
           in your life to help you realize your deepest dreams.
         </p>
         <p>You know you want to</p>
       </div>
-      <form class="login-form">
+      <form id="signup-form" class="signup-section">
         <h2>Let's do this!</h2>
         <div class="form-input-wraper">
           <div class="form-input">
             <label for="first-name">FIRST NAME</label>
-            <input id="first-name" type="text" required />
+            <input id="first-name" type="text" name="first_name" required />
           </div>
           <div class="form-input">
             <label for="last-name">LAST NAME</label>
-            <input id="last-name" type="text" required />
+            <input id="last-name" type="text" name="last_name" required />
           </div>
           <div class="form-input">
             <label for="mail">EMAIL</label>
-            <input id="mail" type="email" required />
+            <input id="mail" type="email" name="user_email" required />
           </div>
           <div class="form-input">
             <label for="phone-number">PHONE NUMBER</label>
-            <input id="phone-number" type="tel" required />
+            <input id="phone-number" type="tel" name="phone_name" required />
           </div>
           <div class="form-input">
-            <label for="password">PASSWORD</label>
-            <input id="password" type="password" required />
+            <label for="pwd">PASSWORD</label>
+            <input id="pwd" type="password" name="password" required />
           </div>
           <div class="form-input">
             <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input id="confirm-password" type="password" required />
+            <input id="confirm-password" type="password" name="confirm_password" required />
           </div>
         </div>
-        <button type="submit">Create Account</button>
       </form>
-      <p>Already have an account? <a href="">Log In</a></p>
+      <div class="submit-section">
+        <button form="signup-form" type="submit">Create Account</button>
+        <p class="have-account">
+          Already have an account? <a href="">Log In</a>
+        </p>
+      </div>
     </div>
   </body>
 </html>
