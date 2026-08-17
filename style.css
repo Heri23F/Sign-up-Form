@@ -126,7 +126,7 @@ body {
 .right-section .form-input-wraper {
   display: flex;
   justify-content: space-between;
-  width: 65%;
+  max-width: 500px;
   gap: 16px;
   flex-wrap: wrap;
 }
